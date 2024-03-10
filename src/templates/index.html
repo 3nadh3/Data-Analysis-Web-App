@@ -1,0 +1,23 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dataset Analysis</title>
+    <link rel="stylesheet" href="/static/index.css">
+</head>
+<body>
+    <h1>Upload Dataset</h1>
+    <form id="uploadForm" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".csv">
+        <input type="button" value="Upload" onclick="uploadDataset()">
+    </form>
+
+    <div id="resultContainer">
+        <!-- Results will be displayed here -->
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
